@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50ECD9612C69B8E50012898E /* newGroupWithFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECD9602C69B8E50012898E /* newGroupWithFolder.swift */; };
+		50ECD9632C69B8FA0012898E /* newGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECD9622C69B8FA0012898E /* newGroup.swift */; };
 		79F6FC411F14251800E22ED5 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6FC401F14251800E22ED5 /* Album.swift */; };
 		79F6FC431F14254E00E22ED5 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6FC421F14254E00E22ED5 /* AlbumView.swift */; };
 		EDDF66161EBD28EF006123DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF66151EBD28EF006123DA /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50ECD9602C69B8E50012898E /* newGroupWithFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newGroupWithFolder.swift; sourceTree = "<group>"; };
+		50ECD9622C69B8FA0012898E /* newGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newGroup.swift; sourceTree = "<group>"; };
 		79F6FC401F14251800E22ED5 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		79F6FC421F14254E00E22ED5 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 		EDDF66121EBD28EF006123DA /* RWBlueLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWBlueLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50ECD95E2C69B8AF0012898E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				50ECD9622C69B8FA0012898E /* newGroup.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		50ECD95F2C69B8B60012898E /* New Group With Folder */ = {
+			isa = PBXGroup;
+			children = (
+				50ECD9602C69B8E50012898E /* newGroupWithFolder.swift */,
+			);
+			path = "New Group With Folder";
+			sourceTree = "<group>";
+		};
 		EDDF66091EBD28EF006123DA = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +82,8 @@
 		EDDF66141EBD28EF006123DA /* RWBlueLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				50ECD95F2C69B8B60012898E /* New Group With Folder */,
+				50ECD95E2C69B8AF0012898E /* New Group */,
 				79F6FC401F14251800E22ED5 /* Album.swift */,
 				79F6FC421F14254E00E22ED5 /* AlbumView.swift */,
 				EDDF66211EBD28EF006123DA /* Info.plist */,
@@ -160,7 +182,9 @@
 			files = (
 				EDDF66181EBD28EF006123DA /* ViewController.swift in Sources */,
 				EDDF66371EBD2B8C006123DA /* HTTPClient.swift in Sources */,
+				50ECD9612C69B8E50012898E /* newGroupWithFolder.swift in Sources */,
 				EDDF66161EBD28EF006123DA /* AppDelegate.swift in Sources */,
+				50ECD9632C69B8FA0012898E /* newGroup.swift in Sources */,
 				79F6FC431F14254E00E22ED5 /* AlbumView.swift in Sources */,
 				79F6FC411F14251800E22ED5 /* Album.swift in Sources */,
 			);
